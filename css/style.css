@@ -1,0 +1,70 @@
+body {background-color: black;
+	}
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url(../raleway/Raleway-Black.ttf);
+}
+#main {width: 1470px;
+	margin: 37px auto auto auto;
+	}
+#stickynav {width: 1470px;
+		height: 37px;
+		background: url(../images/line.png);
+		}
+#stickynav ul {padding-left: 67px;
+			padding-top: 5px;
+			}
+#stickynav ul li {float: left;
+			margin-right: 30px;
+			list-style: none;}
+#stickynav  ul li a {color: black;
+			font-family: 'Raleway-Black';
+			font-size: 24px;
+			font-weight: bold;
+			text-decoration: none;
+			}
+#stickynav .current {text-decoration: underline;
+			color: #0173c6;
+			}
+h1 {margin: 0;
+		color: white;
+		font-family: 'Raleway-Black';
+		font-size: 188.64px;
+		font-weight: bold;
+		text-align: center;}
+#contact {
+		width: 1470px;
+		height: 37px;
+		background: url(../images/line.png);
+		}
+#contact ul{margin: 0;
+		padding-top: 5px;
+		padding-left: 133px;}
+#contact ul li{float: left;
+		margin-right: 23px;
+		list-style: none;
+		color: black;
+		font-family: 'Raleway-Black';
+		font-size: 24px;
+		font-weight: bold;
+		}
+#contact ul li a {color: black;
+			font-family: 'Raleway-Black';
+			font-size: 24px;
+			font-weight: bold;
+			text-decoration: none;
+			}
+#contact .line {border-left: 3px solid black;
+		padding-left: 23px;}
+#hours {margin: 37px 0 0 0;
+		width: 1470px;
+		height: 1005px;
+		background: url(../images/orel.png);
+		}
+h2 {height: 74px;
+		width: 396px;
+		background: black;
+		font-family: 'Raleway-Black';
+		font-size: 49.69px;
+		color: white;
+		align: center;}
