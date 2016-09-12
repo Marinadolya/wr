@@ -1,9 +1,11 @@
 body {background-color: black;
-	}
+	background-repeat: repeat;}
 @font-face {
     font-family: 'Raleway-Black';
-    src: url(../raleway/Raleway-Black.ttf);
-}
+	src: url(../raleway/Raleway-Black.ttf);}
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url(../raleway/Raleway-Bold.ttf);}
 #main {width: 1470px;
 	margin: 37px auto auto auto;
 	}
@@ -61,10 +63,140 @@ h1 {margin: 0;
 		height: 1005px;
 		background: url(../images/orel.png);
 		}
-h2 {height: 74px;
-		width: 396px;
+#blok {position: relative;
+		top: 180px;
+		left: 110px;}
+h2 {margin-bottom: 0;
+	height: 74px;
+		width: 394px;
 		background: black;
+		text-align: center;
 		font-family: 'Raleway-Black';
 		font-size: 49.69px;
 		color: white;
-		align: center;}
+		}
+#blok ul {margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+		height: 362px;
+		width: 394px;
+		background: black;
+		opacity: 0.6;
+		text-align: center;
+		font-family: 'Raleway-Black';
+		font-size: 24px;
+		color: white;
+		list-style: none;}
+#blok .shrift {font-size: 18px;}
+h3 {	Margin-top: 0;
+		height: 60px;
+		width: 394px;
+		background: black;
+		text-align: center;
+		font-family: 'Raleway-Black';
+		font-size: 14px;
+		color: #868686;
+		}
+#quote {margin: 37px 0 0 0;
+		width: 1470px;
+		height: 610px;
+		background: url(../images/doska.png);
+		}
+.medal {position: relative;
+		top: 47px;
+		left: 87px;}
+.citata {position: relative;
+		top: -140px;
+		left: 160px;}
+h4 {margin-top: 37px;
+		margin-bottom: 0;
+		height: 75px;
+		width: 1470px;
+		background: white;
+		text-align: center;
+		font-family: 'Raleway-Black';
+		font-size: 72px;
+		color: black;}
+#foodtxt {height: 1860px;
+		width: 1470px;
+		background: #191919;}
+h5 {margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		font-family: 'Raleway-Black';
+		font-size: 36px;
+		color: white;
+		text-decoration: underline;}
+p {text-align: center;
+		font-family: 'Raleway-Bold';
+		font-size: 16px;
+		color: #898989;
+		line-height: 1.5;}
+#boozetxt {height: 316px;
+		width: 1470px;
+		background: #191919;}
+#tapstxt {height: 460px;
+		width: 1470px;
+		background: #191919;}
+#brunchtxt {height: 680px;
+		width: 1470px;
+		background: #191919;}
+#quotetwo {margin: 37px 0 0 0;
+		width: 1470px;
+		height: 610px;
+		background: url(../images/doska2.png);}
+.join {position: relative;
+		top: 95px;
+		left: 130px;}
+h6 {		position: relative;
+		top: -300;
+		left: 850px;
+		font-family: 'Raleway-Black';
+		font-size: 45px;
+		color: white;
+		text-decoration: underline;}
+.share  img {position: relative;
+		top: -400px;
+		left: 327px;
+		margin-right: 4px;}
+#eventstxt {height: 205px;
+		width: 1470px;
+		background: #191919;
+		}
+#kal1 {height: 205px;
+		width: 490px;
+		float: left;}
+.kalendar {position: relative;
+		top: 50px;
+		left: 120px;
+		}
+.month {position: relative;
+		bottom: 45px;
+		right: 85px;
+		font-family: 'Raleway-Black';
+		font-size: 14px;
+		color: white;
+		}
+.data {position: relative;
+		bottom: 100px;
+		right: 85px;
+		font-family: 'Raleway-Black';
+		font-size: 48px;
+		color: black;
+		}
+.dj {position: relative;
+		bottom: 240px;
+		left: 208px;
+		text-align: left;}
+.ops {	position: relative;
+		bottom: 240px;
+		left: 208px;
+		text-align: left;
+		line-height: 0;
+		}
+#kal2 {height: 205px;
+		width: 490px;
+		float: left;}
+#kal3 {height: 205px;
+		width: 490px;
+		float: left;}
