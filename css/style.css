@@ -200,3 +200,247 @@ h6 {		position: relative;
 #kal3 {height: 205px;
 		width: 490px;
 		float: left;}
+#photostxt {height: 835px;
+		width: 1470px;
+		background: #191919;
+		}
+#obl {margin-left: 45px;}
+#obl img {margin-top: 30px;
+		margin-right: 27px;
+		} 
+#reservationstxt {height: 612px;
+		width: 1470px;
+		background: #282828;}
+#center_blokc {height: 440px;
+		width: 1272px;
+		margin: auto;
+		background: #f1f1f1;
+		border-radius: 15px; 
+		position: relative;
+		top: 85px;
+		}
+#left {height: 440px;
+		width: 830px;
+		float: left;
+		display: block;
+		}
+#organizer {position: relative;
+		top: 28px;
+		left: 30px;
+		height: 49px;
+		width: 46px;
+		background: #ebebeb;
+		border: 1px solid #cecece;
+		float: left;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		}
+.nick {position: relative;
+		top: 14px;
+		left: 15px;}
+.name {position: relative;
+		top: 28px;
+		left: 30px;
+		height: 51px;
+		width: 725px;
+		background: white;
+		border: 1px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-top: 1px solid #cecece;
+		border-bottom: 1px solid #cecece;
+		border-right: 1px solid #cecece;
+		}
+#organizer1 {position: relative;
+		top: 28px;
+		left: 30px;
+		height: 118px;
+		width: 46px;
+		background: #ebebeb;
+		border: 1px solid #cecece;
+		float: left;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		}
+.name1 {position: relative;
+		top: 28px;
+		left: 30px;
+		height: 120px;
+		width: 725px;
+		background: white;
+		border: 1px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-top: 1px solid #cecece;
+		border-bottom: 1px solid #cecece;
+		border-right: 1px solid #cecece;
+		}
+::-webkit-input-placeholder {color:#9c9c9c;
+							font-size: 18px;
+							font-family: 'Raleway-Bold';
+							padding: 15px;}
+::-moz-placeholder {color:#9c9c9c;
+				font-size: 18px;
+				font-family: 'Raleway-Bold';
+				padding: 15px;}
+:-moz-placeholder {color:#9c9c9c;
+				font-size: 18px;
+				font-family: 'Raleway-Bold';
+				padding: 15px;}
+:-ms-input-placeholder {color:#9c9c9c;
+				font-size: 18px;
+				font-family: 'Raleway-Bold';
+				padding: 15px;}
+#right {height: 440px;
+		width: 430px;
+		display: inline;
+		}
+#righttxt {width: 390px;
+		height: 405px;
+		display: inline-table;
+		border-left: 1px solid #cecece;
+		padding-left: 30px;}
+.zagolovok {
+		top: 200px;
+		margin: 0;
+		font-family: 'Raleway-Black';
+		font-size: 30px;
+		color: black;
+		text-align: left;
+		}
+.party {	margin:0;
+		text-align: left;
+		font-family: 'Raleway-Bold';
+		font-size: 18px;
+		color: #9c9c9c;
+		}
+.nad {margin:0;
+		font-family: 'Raleway-Bold';
+		font-size: 14px;
+		color: red;}
+#six {width: 315px;
+	height: 55px;
+	position: relative;
+	left: 32px;
+	top: 3px;
+	border-top: solid 1px #0c6c6c6;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #e6e6e6;
+	border-right: solid 1px #e6e6e6;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,eeeeee+100 */
+background: rgb(204,204,204); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(204,204,204,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+button {width: 303px;
+	height: 40px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	font-family: 'Raleway-Bold';
+    font-size: 18px; /* Размер шрифта */ 
+    text-align: center; /* Надпись на кнопке по центру */
+	color: white;
+    border-bottom: solid 1px #0d4269; /* Параметры рамки кнопки */ 
+	border-top: solid 1px #1b81cc;
+	border-left: solid 1px #1b81cc;
+	border-right: solid 1px #1b81cc;
+	border-radius: 5px;
+	cursor: pointer; /* Изменение вида курсора при наведении*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dedede+0,1e82cc+2,89bee5+5,60a7dc+7,3d93d3+30,338fd1+32,3690d2+34,1b81cc+55,0a78c8+73,0173c6+86,0072c6+98,0d4269+100 */
+background: #dedede; /* Old browsers */
+background: -moz-linear-gradient(top,  #dedede 0%, #1e82cc 2%, #89bee5 5%, #60a7dc 7%, #3d93d3 30%, #338fd1 32%, #3690d2 34%, #1b81cc 55%, #0a78c8 73%, #0173c6 86%, #0072c6 98%, #0d4269 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dedede 0%,#1e82cc 2%,#89bee5 5%,#60a7dc 7%,#3d93d3 30%,#338fd1 32%,#3690d2 34%,#1b81cc 55%,#0a78c8 73%,#0173c6 86%,#0072c6 98%,#0d4269 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dedede 0%,#1e82cc 2%,#89bee5 5%,#60a7dc 7%,#3d93d3 30%,#338fd1 32%,#3690d2 34%,#1b81cc 55%,#0a78c8 73%,#0173c6 86%,#0072c6 98%,#0d4269 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#0d4269',GradientType=0 ); /* IE6-9 */
+}
+.maps {margin: 0;}
+#view  {margin: 3px;
+		color: #0173c6;
+		font-family: 'Raleway-Bold';
+		font-size: 24px;
+		text-align: center;}
+#view .str{padding-right: 3px;}
+#contacttxt {height: 555px;
+		width: 1470px;
+		background: #282828;}
+#center_blokc1 {height: 375px;
+		width: 1272px;
+		margin: auto;
+		background: #f1f1f1;
+		border-radius: 15px; 
+		position: relative;
+		top: 85px;
+		}
+#right_cont{width: 390px;
+		height: 350px;
+		display: inline-table;
+		border-left: 1px solid #cecece;
+		padding-top: 4;
+		padding-left: 23;}
+.mad-sons-pub{margin: 0;
+						font-family: 'Raleway-Black';
+						font-size: 49.36px;
+						color: black;
+						text-decoration: underline;
+						line-height: 1;}
+.street {margin: 0;
+			font-family: 'Raleway-Black';
+						font-size: 15.08px;
+						color: black;
+						line-height: 1;}
+.telefon {margin: 0;
+		margin-bottom: 25px;
+			font-family: 'Raleway-Black';
+						font-size: 30px;
+						color: black;
+						line-height: 1;}
+#socseti {margin-left: 20px;}
+.socseti {margin: 0;
+			position: relative;
+			bottom: 27px;
+			font-family: 'Raleway-Black';
+			font-size: 15.5px;
+			color: #0173c6;
+			line-height: 0.5}
+.setifoto {margin-left: 28px;}
+#send_mas{width: 315px;
+	height: 55px;
+	position: relative;
+	left: 40px;
+	top: 3px;
+	display: inline-table;
+	border-top: solid 1px #0c6c6c6;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #e6e6e6;
+	border-right: solid 1px #e6e6e6;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,eeeeee+100 */
+background: rgb(204,204,204); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(204,204,204,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+#messege {    position: relative;
+        top: 20px;
+		}
+#footer {height: 400px;
+		width: 1470px;
+		background: #191919;
+		margin-top: 15px;
+		}
+.logotep {margin: 37px;
+		}
+.footer {margin: 0;
+		color: white;
+		font-family: 'Raleway-Bold';
+		font-size: 15.5px;
+		}
+.coperite {color: #494949;
+		font-family: 'Raleway-Bold';
+		font-size: 12px;
+		line-height: 0.5}
